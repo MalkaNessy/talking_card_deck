@@ -1,16 +1,43 @@
 #home {
-/*	background-color: red;*/
-}
-/*
-            background: url(/img/slide-1.jpg) no-repeat center center fixed;
-        }
-*/
-/*
-body {
-	position: relative;
+	background-color: red;
+	
 }
 
-.container {
-	position: absolute;
-	top: 300px;
-}        */
+/*
+$grid-breakpoints: (
+  xs: 0,
+  sm: 480px,
+  md: 768px,
+  lg: 1024px
+);
+*/
+@media (max-width: 991px) { 
+	
+	#home ul {
+		background-color: dimgrey;
+		padding-top: 0.3rem;
+		padding-bottom: 0.3rem;
+		padding-left: 1.4rem;
+		padding-right: 0.2rem;
+	}
+	#home h2 {
+		font-size: 1rem;
+	}
+	#home p {
+		font-size: 0.8rem;
+	}
+} 
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+	#home {
+		background-color: green;
+	}
+	
+	#home ul {
+		font-size: 1.2rem;
+		display: block;
+		
+	}
+
+} 
