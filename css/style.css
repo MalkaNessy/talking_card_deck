@@ -1,16 +1,9 @@
 #home {
-	background-color: red;
+/*	background-color: red;*/
 	
 }
 
-/*
-$grid-breakpoints: (
-  xs: 0,
-  sm: 480px,
-  md: 768px,
-  lg: 1024px
-);
-*/
+
 @media (max-width: 991px) { 
 	
 	#home ul {
@@ -31,7 +24,7 @@ $grid-breakpoints: (
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
 	#home {
-		background-color: green;
+/*		background-color: green;*/
 	}
 	
 	#home ul {
