@@ -35,3 +35,15 @@ section#plan img{
 	}
 
 } 
+
+/*///////// thank_you.html //////////////*/
+
+body#thanks {
+    background: #f1f1fa;
+    padding-top: 4em;
+    font-size: 0.9em;
+    text-align: center;
+    line-height: 1.5em;
+    font-family: 'proxima-nova-soft', sans-serif;
+}
+
