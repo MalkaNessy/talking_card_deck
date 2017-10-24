@@ -70,12 +70,12 @@
                 <div class="card-img-overlay bg-overlay">
                     <h2 class="card-title text-shadow text-white text-uppercase mb-0 ">Для чего это нужно?</h2>
 					<p class="lead card-text text-shadow text-white w-50 mb-4 d-none d-md-block">Чтобы разобраться самому.  </p>
-					<p class="lead  text-white lg-mb-5  btn btn-secondary" href="#collapsul" data-toggle="collapse">Например, когда:</p>
+					<p class="lead  text-white lg-mb-5  btn btn-secondary" href="#collapsul" data-toggle="collapse">Например, если:</p>
                     <ul class="text-shadow text-white small md-lead mb-5 rounded collapse"  id="collapsul">
-						<li class="">Трудно выбрать из нескольких вариантов, логика и факты не помогают.</li>
-						<li class="">Есть непонятности в отношениях, которые не хочется ни с кем обсуждать.</li>
-						<li class="">Предстоит что-то новое и, по ощущениям, неоднозначное.</li>
-						<li class="">Творится нечто странное.</li>
+						<li class="">Нужно принять решение, логика и факты не помогают</li>
+						<li class="">Есть отношения типа "все сложно", которые не хочется ни с кем обсуждать</li>
+						<li class="">Хочется сложить картину будущего, но без гадания</li>
+						<li class="">В жизни происходит что-то странное</li>
 											
 					</ul>
 
@@ -239,27 +239,28 @@
 		
 	<section id="contacts">
 	  <div class="bg-faded p-4 my-4">
-		<form >
+		<form action="http://themalka.site/talkingdeck/mail.php" method="post">
                 <div class="form-group row">
                     <label for="fullName" class="col-sm-2 col-form-label">Имя</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" id="fullName" placeholder=""> </div>
+                        <input type="text" class="form-control" id="fullName" name="first_name" placeholder="... и фамилия"> </div>
                 </div>
                 <div class="form-group row">
                     <label for="email" class="col-sm-2 col-form-label">Email</label>
                     <div class="col-sm-10">
-                        <input type="email" class="form-control" id="email" placeholder="Email"> </div>
+                        <input type="email" class="form-control" id="email" name="email" placeholder=""> </div>
                 </div>
                 <div class="form-group row">
                     <label for="message" class="col-sm-2 col-form-label">Сообщение</label>
                     <div class="col-sm-10">
-                        <textarea class="form-control" placeholder="" id="message" rows="5"></textarea>
+                        <textarea class="form-control" placeholder="" id="message" name="message" rows="5"></textarea>
                     </div>
                 </div>
-                <button type="submit" class="btn btn-primary">Записаться на курс</button>
+                <button type="submit" name="submit" class="btn btn-primary">Записаться на курс</button>
             </form>
 		</div>
 	
+			
 	</section>	
 		
 		
