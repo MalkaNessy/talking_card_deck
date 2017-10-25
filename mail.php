@@ -15,8 +15,8 @@ if(isset($_POST['submit'])){
     $headers2 = "From:" . $to;
     mail($to,$subject,$message,$headers);
     //mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
-	//header( "Location: ".$thankyou_page );
-    echo "Сообщение отправлено. Спасибо, " . $first_name . ", я отвечу вам в течение двух ближайших дней.".$back;
+	header( "Location: ".$thankyou_page );
+    //echo "Сообщение отправлено. Спасибо, " . $first_name . ", я отвечу вам в течение двух ближайших дней.".$back;
     // You can also use header('Location: thank_you.php'); to redirect to another page.
     }
 ?>
